@@ -1,0 +1,180 @@
+#title
+{
+  background-color:#ff4c68;
+  color: #fff;
+}
+@media (max-width:992px)
+{
+  #title
+  {
+    background-color:#ff4c68;
+    color: #fff;
+    text-align:center;
+  }
+}
+
+body
+{
+  font-family:"montserrat";
+}
+h1{
+  font-family: 'Montserrat-bold', sans-serif;
+  line-height:1.2;
+  font-size:3.5rem;
+  font-weight:bold;
+}
+.container-fluid
+{
+  padding:3% 15%;
+}
+/*Navigation Bar*/
+.navbar
+{
+  padding:0 0 4.5rem;
+}
+.navbar-brand
+{
+  font-family: "Ubuntu";
+  font-size:2rem;
+  font-weight:bold;
+}
+.nav-item
+{
+  padding:0 18px;
+}
+.nav-link
+{
+  font-family: "Montserrat-Light";
+  font-size:1.2rem;
+}
+/*download buttons*/
+.download-button
+{
+  margin:3% 5% 3% 0;
+}
+/*title image*/
+.title-image
+{
+  width:60%;
+  transform: rotate(25deg);
+  position:absolute;
+}
+@media (max-width:992px)
+{
+  .title-image
+  {
+    width:60%;
+    position:static;
+    transform:rotate(0);
+
+  }
+}
+
+#features
+{
+  background-color: #fff;
+  padding:3% 17%;
+  position:relative;
+}
+.features-box
+{
+  text-align:center;
+  padding:5%;
+}
+.h3
+{
+   font-family:'montserrat-light';
+   font-size:1.5rem;
+   font-weight:bold;
+}
+p
+{
+  color:#8f8f8f;
+}
+.photo
+{
+  color:#ef8172;
+  margin-bottom:1rem;
+}
+.photo:hover
+{
+  color:#ff4c68;
+}
+#testimonials
+{
+  text-align:center;
+  background-color:#ef8172;
+  color:#fff;
+}
+h2
+{
+  font-family:'montserrat-bold';
+  font-size:3rem;
+  line-height:1.5;
+}
+.dog
+{
+  width:15%;
+  border-radius:100%;
+  margin:20px;
+}
+#press
+{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom:3%;
+}
+.press-logo
+{
+  width:15%;
+  margin:20px;
+}
+.lady
+{
+  width:15%;
+  border-radius:100%;
+  margin:20px;
+}
+.carousel-item
+{
+  padding:3% 15%;
+}
+/*pricing padding*/
+#pricing
+{
+  padding:100px;
+  text-align:center;
+}
+.pricing_tabel
+{
+  padding:2% 3%;
+}
+/**/
+#cta
+{
+  background-color:#ff4c68;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.last
+{
+  line-height:2;
+  font-family: 'Montserrat-bold', sans-serif;
+  font-size:2.5rem;
+  font-weight:bold;
+  color:#fff;
+}
+.button
+{
+  margin:3% 3% 3% 0;
+}
+#footer
+{
+  line-height:4;
+  text-align:center;
+}
+.ico
+{
+  padding-left:3px;
+  padding-right:3px;
+}
